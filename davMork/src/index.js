@@ -9,7 +9,8 @@ const app = dva();
 // app.use({});
 
 // 3. Model
-app.model(require('./models/index').default);
+// 挂载发现页model
+app.model(require('./models/discover').default);
 
 // 4. Router
 app.router(require('./routes/index').default);

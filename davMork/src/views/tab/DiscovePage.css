@@ -1,0 +1,82 @@
+.content {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .main {
+  width: 100%;
+  height: 190px;
+  background: #323739;
+}
+
+.content .main .top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.content .main .top p {
+  width: 50px;
+  text-align: center;
+}
+
+.content .main .top p img {
+  width: 28px;
+}
+
+.content .main .top .inp {
+  height: 100%;
+  flex: 1;
+  position: relative;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.content .main .top .inp input {
+  width: 100%;
+  height: 100%;
+  background: #5b6061;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.content .main .top .inp img {
+  position: absolute;
+  width: 22px;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-72px);
+}
+
+.content .main .banner {
+  width: 94%;
+  margin: 0 auto;
+  touch-action: none;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content .main .banner img {
+  width: 100%;
+  height: 140px;
+}
+
+.content .main .tab {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.content .main .tab a {
+  flex: 1;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}

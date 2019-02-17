@@ -1,0 +1,26 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: rgba(224, 222, 222, 0.4);
+    a {
+        flex: 1;
+        text-align: center;
+        color: #333;
+    }
+}
+
+:global(#root) {
+    width: 100%;
+    height: 100%;
+}
+
+:local {}
